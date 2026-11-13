@@ -1,0 +1,14 @@
+port: 7880
+bind_addresses:
+  - 0.0.0.0
+rtc:
+  tcp_port: 7881
+  # Use one UDP mux port so Docker Desktop only needs to forward one media port.
+  udp_port: 7882
+  use_external_ip: false
+redis:
+  address: redis:6379
+keys:
+  devkey: secretsecret
+logging:
+  level: info

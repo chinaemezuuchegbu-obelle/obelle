@@ -1,0 +1,57 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python bytecode and tooling caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Notebooks and local runtime files
+.ipynb_checkpoints/
+*.log
+logs/
+infra/docker/recordings/
+
+# Source documents may be large or private. Keep the directory with .gitkeep
+# if you want it present in a fresh clone.
+!data/pdfs/.gitkeep
+
+# Local model and application caches
+.cache/
+models/
+
+# IDE and operating-system files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+# JavaScript monorepo build outputs
+node_modules/
+.turbo/
+coverage/

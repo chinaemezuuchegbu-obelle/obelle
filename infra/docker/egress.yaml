@@ -1,0 +1,8 @@
+log_level: info
+api_key: devkey
+api_secret: secretsecret
+ws_url: ws://livekit:7880
+insecure: true
+redis:
+  address: redis:6379
+backup_storage: /out
